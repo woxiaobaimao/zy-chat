@@ -1,28 +1,25 @@
 # zy-chat
 
-This template should help get you started developing with Vue 3 in Vite.
+本项目是智能聊天系统，只有简单问答功能
 
-## Recommended IDE Setup
+# 修改配置
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+打开 vite.config.js
+修改 target: '' 根据接口地址进行转发
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 安装依赖
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 项目运行
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 项目打包
 
 ```sh
 npm run build
